@@ -1,0 +1,85 @@
+body{
+    font-family: 'Cantata One';
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header{
+    background-color: thistle;
+    color: white;
+    padding: 2em;
+}
+
+button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: white;
+    font-family: 'Cantata One';
+    border: none;
+    margin: 10px;
+    font-size: 14px;
+    color: thistle;
+    border-radius: 8px;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out,-
+    }
+
+.carousel {
+    width: 50%;
+    margin: auto;
+}
+
+.favoritesContent {
+    text-align: center;
+    margin: 30px;
+    line-height: 1.5;
+}
+
+#myLink {
+    color: thistle;
+}
+
+.intro-personal {
+    background-color: white;
+}
+
+.intro-experiences {
+    background-color: #f5eff5;
+}
+
+.videos {
+    margin: auto;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    width: 70%;
+    margin: auto;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
